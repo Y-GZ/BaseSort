@@ -12,9 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let arr = [31, 2, 4, 1, 3, 2]
-        let result = quickSort(s: arr, l: 0, r: arr.count - 1)
-        print(result)
     }
     
     private func bubbleSort<T: Comparable>(s: [T]) -> [T] { //稳定
